@@ -1,17 +1,27 @@
 const readline = require('readline');
+const checkInput = require('./src/checkInput').checkInput;
 
 const number = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-var userInput = function() {
-  number.question('How many prime numbers would you like to multiply ?', (answer) => {
+var runApp = function() {
+  number.question('How many prime numbers would you like to multiply? Please enter a positive integer.\n', (answer) => {
+    if (new checkInput().isCorrect(answer)) {
+      console.log('Thanks for the number')
 
-  console.log('Thanks for the number')
+      number.close();
 
-  number.close();
+
+    } else {
+      console.log('This is not a positive integer my friend.')
+      runApp();
+    }
   });
 };
 
-userInput();
+runApp();
+
+
+
