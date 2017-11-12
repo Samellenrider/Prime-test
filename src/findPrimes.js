@@ -5,25 +5,20 @@ function FindPrimes() {
 //this function says if a number is a prime or not
 
 FindPrimes.prototype.prime = function(number) {
-   if(number % 2 !== 0 && number % 3 !== 0 ) {
-    return(true)
-  } else {
-  	return(false)
-  };
-
-  // return (number % 2 !== 0 && number % 3 !== 0) ? true : false;
+  for(var i = 2; i < number; i++)
+    if(number % i === 0) return false;
+  return number !== 1;
 };
 
 //this number loops and finds prime numbers until the array is as long as the user requested
 
 FindPrimes.prototype.collectPrimes = function(usernumber) {
   if(usernumber > 1) {	
-  	var n = 3
-  	this.primeNumbers.push(3)
+   	var n = 3
   	while(usernumber > this.primeNumbers.length){
       if(this.prime(n)){
       this.primeNumbers.push(n)
-  	}
+  }	
   	  n++;
     }
   } else {
