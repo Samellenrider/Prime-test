@@ -1,14 +1,14 @@
-const findPrimes = require('../src/findPrimes').findPrimes;
+const FindPrimes = require('../src/findPrimes').FindPrimes;
 
-describe('FindPrimes' function() {
+describe('FindPrimes', function() {
+
+	beforeEach( function() {
+      n = new FindPrimes();
+    });
+
+    it('has a prime array', function() {
+      expect(n.primeNumbers).toEqual([2])
+    })
   
-  describe('prime' function() {
-    
-    it()
 
-  
-
-  }
-
-
-});
+  });
