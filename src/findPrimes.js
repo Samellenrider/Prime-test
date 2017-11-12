@@ -10,6 +10,8 @@ FindPrimes.prototype.prime = function(number) {
   } else {
   	return(false)
   };
+
+  // return (number % 2 !== 0 && number % 3 !== 0) ? true : false;
 };
 
 //this number loops and finds prime numbers until the array is as long as the user requested
