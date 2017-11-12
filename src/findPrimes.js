@@ -5,9 +5,7 @@ function FindPrimes() {
 //this function says if a number is a prime or not
 
 FindPrimes.prototype.prime = function(number) {
-  if(number === 2) {
-    this.primeNumbers.push(3)
-  } else if(number % 2 !== 0 && number % 3 !== 0 && number !== 3 ) {
+   if(number % 2 !== 0 && number % 3 !== 0 ) {
     return(true)
   } else {
   	return(false)
@@ -17,16 +15,17 @@ FindPrimes.prototype.prime = function(number) {
 //this number loops and finds prime numbers until the array is as long as the user requested
 
 FindPrimes.prototype.collectPrimes = function(usernumber) {
-  if(usernumber === 1) {	
-  	return this.primeNumbers
-  } else {
+  if(usernumber > 1) {	
   	var n = 3
+  	this.primeNumbers.push(3)
   	while(usernumber > this.primeNumbers.length){
       if(this.prime(n)){
       this.primeNumbers.push(n)
   	}
   	  n++;
     }
+  } else {
+  	return this.primeNumbers
   }
    return this.primeNumbers
 };
