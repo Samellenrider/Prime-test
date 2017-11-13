@@ -2,8 +2,8 @@ function FormatTable() {
 
 };
 
-FormatTable.prototype.tableFormatter = function(tableArray) {
-  tableArray.forEach(function(singleArray) {
+FormatTable.prototype.tableFormatter = function(twoDArray) {
+  twoDArray.forEach(function(singleArray) {
   	table = []
   	l = singleArray.length
   	for(i = l; i > 0; i--) {
