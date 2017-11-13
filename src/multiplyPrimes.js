@@ -1,21 +1,53 @@
 function MultiplyPrimes() {
-  
+  this.table = [];
 };
 
 MultiplyPrimes.prototype.createMultiples = function(primeNumbers) {
-  let table = [];
-  let firstRow = [1].concat(primeNumbers); //arrays get merged
-  table.push(firstRow);
-  for(var i = 1; i < firstRow.lenght; i++) {
-    let l = firstRow.lenght;
-    let secondRow = new Array(l); //secondRow array gets the same amount of "indexplaces" like firstRow array
-    for(var y = 0; y < l; y++) {
-      secondRow[y] = firstRow[i] * firstRow[y]; // we multiply arrays
+  var firstRow = [1].concat(primeNumbers); //arrays get merged
+  this.table.push(firstRow);
+  for(i = 1; i < firstRow.length; i++) {
+  	var secondRow = new Array(firstRow.length); //secondRow array gets the same amount of "indexplaces" like firstRow array
+    for(y = 0; y < firstRow.length; y++) {
+      secondRow[y] = firstRow[i] * firstRow[y]; //we multiply arrays
     }
-    table.push(secondRow);
+    this.table.push(secondRow)
   }
-  table[0][0] = ''; //first of multidimensional arrays position gets replaced by ''
-  return table;
+  this.table[0][0] = null; //first position of first array gets replaced by null
+  return this.table;
 };
 
 module.exports.MultiplyPrimes = MultiplyPrimes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
