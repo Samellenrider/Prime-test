@@ -12,7 +12,7 @@ MultiplyPrimes.prototype.createMultiples = function(primeNumbers) {
     }
     this.table.push(secondRow)
   }
-  this.table[0][0] = null; //first position of first array gets replaced by null
+  this.table[0][0] = ' '; //first position of first array gets replaced by null
   return this.table;
 };
 
