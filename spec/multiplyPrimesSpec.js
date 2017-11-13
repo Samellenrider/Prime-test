@@ -15,7 +15,12 @@ describe('MultiplyPrimes', function() {
   describe('createMultiples', function() {
     
     it('replaces array1(0) with null', function() {
-      expect(n.createMultiples([2])).toEqual([[null,2],[2,4]])
+      expect(n.createMultiples([2])).toEqual([[null,2],[2,4]]);
     });
+
+    it('creates a 2 dimensional array for every multiplied number', function() {
+      expect(n.createMultiples(array1)).toEqual(n.table);	
+    });
+
   });
 });
