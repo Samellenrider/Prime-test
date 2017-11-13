@@ -19,7 +19,7 @@ FindPrimes.prototype.collectPrimes = function(usernumber) {
       if(this.prime(n)){
       this.primeNumbers.push(n)
   }	
-  	  n++;
+  	n++;
     }
   } else {
   	return this.primeNumbers

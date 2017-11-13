@@ -1,9 +1,9 @@
-const checkInput = require('../src/checkInput').checkInput;
+const CheckInput = require('../src/checkInput').CheckInput;
 
 describe('checkInput', function() {
 
   beforeEach( function() {
-    n = new checkInput();
+    n = new CheckInput();
   });
 
   it('throws an error if input is zero', function() {

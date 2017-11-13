@@ -17,37 +17,3 @@ MultiplyPrimes.prototype.createMultiples = function(primeNumbers) {
 };
 
 module.exports.MultiplyPrimes = MultiplyPrimes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
