@@ -19,7 +19,7 @@ $ https://github.com/Samellenrider/Prime-test.git
 ```
  $ cd Prime-test
 ```
-**4. Install node dependencies**
+**4. Install dependencies**
 ```
  $ npm install
 ```
@@ -38,7 +38,15 @@ $ https://github.com/Samellenrider/Prime-test.git
 
 ## What I am pleased with
 
+- The app works. 
+- Different tasks are seperated into different constructor functions to follow the single responsibility principal. 
+- The app is tested.
 
+## What I would do with more time
+
+- I would work on the formatting of the table. Either by creating a front-end or through npm cli-table. I tried it in several ways, but couldn't quite get it right.
+
+- I would work on the FindPrimes() constructer to upspeed the process of finding prime numbers. It works fine with smaller numbers but it can take a few seconds with bigger numbers.
 
 
 
