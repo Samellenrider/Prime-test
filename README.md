@@ -3,7 +3,7 @@
 My whole life, I dreamed of an app that could display me my favorite prime numbers in a multiplication table.
 Finally, my dream came true.
 
-##How to run it 
+## How to run it 
 
 **1. Download node.js here: https://nodejs.org/en/download/**
 
@@ -11,24 +11,32 @@ Now, open your terminal and enter the following commands:
 
 **2. Clone the repository**
 ```
-$https://github.com/Samellenrider/Prime-test.git
+$ https://github.com/Samellenrider/Prime-test.git
 ``` 
 **3. Move into the directory**
 ```
- $cd Prime-test
+ $ cd Prime-test
 ```
 **4. Install node dependencies**
 ```
- $npm install
+ $ npm install
 ```
 **5. Run the app**
 ```
- $node index.js
+ $ node index.js
 ```
 
+## How to test
+
+**Run the following command**
+
+```
+ $ jasmine
+``` 
 
 
-##Resources
+
+## Resources
 
 - https://nodejs.org/api/readline.html
 - https://docs.npmjs.com/cli/init

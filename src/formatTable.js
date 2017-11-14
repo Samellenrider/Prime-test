@@ -7,7 +7,7 @@ FormatTable.prototype.tableFormatter = function(twoDArray) {
   	table = []
   	l = singleArray.length
   	for(i = l; i > 0; i--) {
-      singleArray.splice(i, 0, '|  ');
+      singleArray.splice(i, 0, '| ');
     };
     table.push(singleArray.join(""));
     t = table.toString();
