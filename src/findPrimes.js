@@ -5,9 +5,9 @@ function FindPrimes() {
 //this function says if a number is a prime or not
 
 FindPrimes.prototype.prime = function(number) {
-  for(var i = 2; i < number; i++)
+  for(i = 2; i < number; i++)
     if(number % i === 0) return false;
-  return number !== 1;
+  return number > 1;
 };
 
 //this number loops and finds prime numbers until the array is as long as the user requested

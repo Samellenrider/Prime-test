@@ -9,7 +9,7 @@ const number = readline.createInterface({
   output: process.stdout
 });
 
-var runApp = function() {
+function runApp() {
   number.question('How many prime numbers would you like to multiply? Please enter a positive integer.\n', (answer) => {
     if (new CheckInput().isCorrect(answer)) {
       number.close();
