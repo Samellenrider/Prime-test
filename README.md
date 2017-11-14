@@ -3,7 +3,7 @@
 My whole life, I dreamed of an app that could display me my favorite prime numbers in a multiplication table.
 Finally, my dream came true.
 
-![Alt Text](https://github.com/Samellenrider/Prime-test/blob/master/demo.mov)
+![Alt Text](https://github.com/Samellenrider/Prime-test/blob/master/demo%20(1).mov)
 
 ## How to run it 
 
