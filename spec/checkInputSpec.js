@@ -23,6 +23,6 @@ describe('checkInput', function() {
   });
 
   it('returns true if input is correct', function() {
-    expect(n.isCorrect(1)).toEqual(true);
+    expect(n.isCorrect(5)).toEqual(true);
   });
 });

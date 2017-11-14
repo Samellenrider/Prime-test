@@ -42,6 +42,9 @@ $ https://github.com/Samellenrider/Prime-test.git
  $ jasmine
 ```
 
+## Approach
+
+
 ## What I am pleased with
 
 - The app works. 
