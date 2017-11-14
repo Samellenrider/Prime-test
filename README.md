@@ -1,7 +1,7 @@
 # Prime-test
 
-My whole life, I dreamed of an app that could display me my favorite prime numbers in a multiplication table.
-Finally, my dream came true.
+This app displays your favorite prime numbers in a multiplication table.
+
 
 ![Alt Text](https://github.com/Samellenrider/Prime-test/blob/master/demo.gif)
 
@@ -29,6 +29,12 @@ $ https://github.com/Samellenrider/Prime-test.git
 ```
 
 ## How to test
+
+**Install Jasmine**
+
+```
+ $ npm install -g jasmine
+```
 
 **Run the following command**
 
