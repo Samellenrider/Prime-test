@@ -10,14 +10,21 @@ Finally, my dream came true.
 Now, open your terminal and enter the following commands:
 
 **2. Clone the repository**
- $https://github.com/Samellenrider/Prime-test.git
+```
+$https://github.com/Samellenrider/Prime-test.git
+``` 
 **3. Move into the directory**
+```
  $cd Prime-test
+```
 **4. Install node dependencies**
+```
  $npm install
+```
 **5. Run the app**
+```
  $node index.js
-
+```
 
 
 
