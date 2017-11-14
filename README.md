@@ -3,6 +3,8 @@
 My whole life, I dreamed of an app that could display me my favorite prime numbers in a multiplication table.
 Finally, my dream came true.
 
+![Alt Text](https://github.com/Samellenrider/Prime-test/blob/master/demo.mov)
+
 ## How to run it 
 
 **1. Download node.js here: https://nodejs.org/en/download/**
@@ -32,7 +34,11 @@ $ https://github.com/Samellenrider/Prime-test.git
 
 ```
  $ jasmine
-``` 
+```
+
+## What I am pleased with
+
+
 
 
 
